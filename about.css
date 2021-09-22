@@ -11,6 +11,9 @@ body {
 h1{
     font-size: 25px;
 }
+h3{
+    text-align: center;
+}
 .general{
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
@@ -32,7 +35,7 @@ h1{
     transform: translate(-50% , -50%);
 }
 .right1{
-    background-color:#d9c2e9;
+    background-color:#ffb9dc;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -51,7 +54,7 @@ h1{
     grid-gap: 0rem;    
 }
 .left2{
-    background-color: #ffb9dc;
+    background-color: #d9c2e9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,14 +85,23 @@ h1{
     text-align: center;
     padding: 1rem;
 }
+
 .education1{
     width: 100%;
-    height: 200px;
+    height: auto;
     background-color: #abe0fe; 
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
     grid-gap: 0rem;  
 }
+
+.left3,
+.right3,
+.left4,
+.right4{
+    margin-top: 2rem;
+}
+
 .left3 p{
     font-size: 20px;
     display: flex;
@@ -105,7 +117,7 @@ h1{
 .content1 p{
     padding-left: 1rem;
     font-size: 15px;
-    /* padding-top: 1rem; */
+
 }
 .content1 ul {
     padding: 1rem;
@@ -120,110 +132,148 @@ h1{
     border-radius: 55%;
 }
 
-
-/* .name1{
-    width: 100%;
-    height: 60px;
-    background-color: #abe0fe;
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    grid-gap: 0rem;
-    font-size: 18px;
-}
-.left3 p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 1.5rem;
-}
 .right3 p{
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 1.5rem;
 }
-.content1{
-    width: 100%;
-    height: 200px;
-    background-color: #abe0fe;
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    grid-gap: 0rem;
-    
-}
-.left4{
+.content2{
     display: flex;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
 }
-.left4 img{
+.content2 p{
+    padding-left: 1rem;
+    font-size: 15px;
+}
+.content2 ul {
+    padding: 1rem;
+}
+.content2 ul li{
+    display: flex;
+}
+.content2 img{
     width: 120px;
     height: 120px;
     border-radius: 55%;
 }
+
+.education2{
+    width: 100%;
+    height: auto;
+    background-color: #abe0fe; 
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 0rem;  
+}
 .left4 p{
-    padding-left: 1rem;
-}
-.left4 ul li{
+    font-size: 20px;
     display: flex;
-    padding-left: 1rem;
+    align-items: center;
+    justify-content: center;
 }
-.right4{
+.content3{
     display: flex;
-    padding-left: 1rem; 
-    padding-right: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
 }
-.right4 p{
+.content3 p{
     padding-left: 1rem;
+    font-size: 15px;
+
 }
-.right4 img{
+.content3 ul {
+    padding: 1rem;
+}
+
+.content3 ul li{
+    display: flex;
+}
+.content3 img{
     width: 120px;
     height: 120px;
-    border-radius: 55%; 
+    border-radius: 55%;
 }
-.right4 ul li{
+
+.right4 p{
+    font-size: 20px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+.content4 p{
     padding-left: 1rem;
-} */
+    font-size: 15px;
+}
+.content4 ul {
+    padding: 1rem;
+}
+.content4 ul li{
+    display: flex;
+}
+.content4 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 55%;
+}
+
 @media screen and (max-width: 500px){
     body{
         font-size: 13px;
     }
-    .general {
+    .general,
+    .myqualifications,
+    .education1,
+    .education2  {
         grid-template-columns: 1fr;
         grid-gap: 0rem;
+    }
+    .left1 p{
+        font-size: 60px;
+    }
+    .right1 h1,
+    .education1 h1,
+    .left2 h1{
+        font-size: 22px;
+    }
+    .right1 p,
+    .left2 p{
+        font-size: 12px;
+    }
+    .left3 p,
+    .right3 p,
+    .left4 p,
+    .right4 p{
+        font-size: 16px;
     }
 
-    .left1 p{
-        font-size: 70px;
+    .content1 p{
+        font-size: 12px;
     }
-    
-    .myqualifications {
-        grid-template-columns: 1fr;
-        grid-gap: 0rem; 
+    .content2 p{
+        font-size: 12px;
     }
-    .education1{
-        grid-template-columns: 1fr;
-        grid-gap: 0rem;
+    .content3 p{
+        font-size: 12px;
     }
-    .content1 img{
+    .content4 p{
+        font-size: 12px;
+    }
+    .content1 img,
+    .content2 img,
+    .content3 img,
+    .content4 img{
         width: 80px;
         height: 80px;
     }
-    /* .name1 {
-        grid-template-columns: 1fr;
-        grid-gap: 0rem;
-    }
-    .content1{
-        grid-template-columns: 1fr;
-        grid-gap: 0rem; 
-    }
-    .left4 img{
-        width: 70px;
-        height: 70px;
-    }
-    .right4 img{
-        width: 70px;
-        height: 70px;
-    } */
+    
 }
