@@ -1,0 +1,229 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mali', cursive;
+    font-weight: 800;
+}
+h1{
+    font-size: 25px;
+}
+.general{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 0rem; 
+}
+.left1{
+    background-image: url("image/S__133914637.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.left1 p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 110px ;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+.right1{
+    background-color:#d9c2e9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.right1 p {
+    padding: 0;
+}
+
+.myqualifications{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 0rem;    
+}
+.left2{
+    background-color: #ffb9dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+.right2{
+    background-color: #ffeba2;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.right2 img{
+    width: 400px;
+    height: 300px;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+.education{
+    width: 100%;
+    height: 60px;
+    background-color: #abe0fe;
+}
+.education h1{
+    text-align: center;
+    padding: 1rem;
+}
+.education1{
+    width: 100%;
+    height: 200px;
+    background-color: #abe0fe; 
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 0rem;  
+}
+.left3 p{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+.content1 p{
+    padding-left: 1rem;
+    font-size: 15px;
+    /* padding-top: 1rem; */
+}
+.content1 ul {
+    padding: 1rem;
+}
+
+.content1 ul li{
+    display: flex;
+}
+.content1 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 55%;
+}
+
+
+/* .name1{
+    width: 100%;
+    height: 60px;
+    background-color: #abe0fe;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 0rem;
+    font-size: 18px;
+}
+.left3 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+.right3 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+.content1{
+    width: 100%;
+    height: 200px;
+    background-color: #abe0fe;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 0rem;
+    
+}
+.left4{
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.left4 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 55%;
+}
+.left4 p{
+    padding-left: 1rem;
+}
+.left4 ul li{
+    display: flex;
+    padding-left: 1rem;
+}
+.right4{
+    display: flex;
+    padding-left: 1rem; 
+    padding-right: 1rem;
+}
+.right4 p{
+    padding-left: 1rem;
+}
+.right4 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 55%; 
+}
+.right4 ul li{
+    display: flex;
+    padding-left: 1rem;
+} */
+@media screen and (max-width: 500px){
+    body{
+        font-size: 13px;
+    }
+    .general {
+        grid-template-columns: 1fr;
+        grid-gap: 0rem;
+    }
+
+    .left1 p{
+        font-size: 70px;
+    }
+    
+    .myqualifications {
+        grid-template-columns: 1fr;
+        grid-gap: 0rem; 
+    }
+    .education1{
+        grid-template-columns: 1fr;
+        grid-gap: 0rem;
+    }
+    .content1 img{
+        width: 80px;
+        height: 80px;
+    }
+    /* .name1 {
+        grid-template-columns: 1fr;
+        grid-gap: 0rem;
+    }
+    .content1{
+        grid-template-columns: 1fr;
+        grid-gap: 0rem; 
+    }
+    .left4 img{
+        width: 70px;
+        height: 70px;
+    }
+    .right4 img{
+        width: 70px;
+        height: 70px;
+    } */
+}
