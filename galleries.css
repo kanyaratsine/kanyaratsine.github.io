@@ -146,6 +146,21 @@ body {
         grid-template-columns: 1fr;
         grid-gap: 0rem;
     }
+    .right1 p{
+        font-size: 45.5px;
+    }
+    .right2 .box2{
+        width: 9rem;
+        height: 10rem;
+        top: 75%;
+    }
+    .right2 .box2 a{
+        font-size: 25px;
+    }
+    .right2 .box2 a:hover{
+        opacity: 0.8;
+        font-size: 30px;
+    }
 }
 
 
