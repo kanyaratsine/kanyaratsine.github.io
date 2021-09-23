@@ -17,7 +17,7 @@ body {
     background-image: url("image/c905784ac6fb3a2a5f04e39f1c77477d.jpg");
     background-repeat: no-repeat;
     width: 20%;
-    height: 625px;
+    height: 656.5px;
     position: relative;
     position: fixed;
 }
@@ -40,7 +40,7 @@ body {
 }
 .right {
     width: 80%;
-    height: 625px;
+    height: 656.5px;
     margin-left: 20%;
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
